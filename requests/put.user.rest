@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/users/jdoe@john.com
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impkb2VAam9obi5jb20iLCJpZCI6MiwiaWF0IjoxNzMyNjEyNDU3fQ.nXZpKCv6p68jc7drW8wjI0he6f7eJg--Q7YpkYYraFg
+
+{
+  "username": "jdoe@jdoe.com"
+}
