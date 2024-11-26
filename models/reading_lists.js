@@ -14,12 +14,14 @@ ReadingList.init({
     type: DataTypes.INTEGER,
     allowNull: false,
     onDelete: 'CASCADE',
+    onUpdate: 'CASCADE',
     references: {model: 'blogs', key: 'id'}
   },
   userId: {
     type: DataTypes.INTEGER,
     allowNull: false,
     onDelete: 'CASCADE',
+    onUpdate: 'CASCADE',
     references: {model: 'users', key: 'id'}
   },
   read: {

@@ -12,12 +12,14 @@ module.exports = {
         type: DataTypes.INTEGER,
         allowNull: false,
         onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
         references: {model: 'blogs', key: 'id'}
       },
       user_id: {
         type: DataTypes.INTEGER,
         allowNull: false,
         onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
         references: {model: 'users', key: 'id'}
       },
       read: {

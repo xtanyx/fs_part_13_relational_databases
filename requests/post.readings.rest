@@ -1,6 +1,6 @@
 POST http://localhost:3001/api/readinglists
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impkb2VAam9obi5jb20iLCJpZCI6MSwiaWF0IjoxNzMyNjE5MDM5fQ.-5LHirZyjHTFhnR0RhjrfSI9ul6FO9GHfQAgI71xUCY
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impkb2VAam9obi5jb20iLCJpZCI6MSwiaWF0IjoxNzMyNjM0MDE0fQ.6qsSwQKlNeRaN-p92i8EpHZy30k-Pwc8S-LelADehLY
 
 {
   "blogId": 1,
